@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Косметика и Парфюм</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="Image/Logo/logo.png" alt="Logo" width="120wv" height="40hv" />
+            </a>
+            <a class="button-cart" href="cart.html">
+                <span class="button-cart-svg"></span>
+            </a>
+        </header>
+    </div>
+    <main class="main">
+        <fieldset class="feedback-fieldset">
+            <legend class="feedback-legend">Отправка заказа</legend>
+            <form action="send.php" method="post" class="feedback-form">
+                <div class="order-info">
+                    <p>Сумма заказа:<br><textarea class="feedback-order-sum" id="feedback-order-sum"
+                            name="feedback-order-sum" readonly></textarea><br><br>
+                        Список товаров:<br><textarea class="feedback-order-name" id="feedback-order-name"
+                            name="feedback-order-name" readonly></textarea>
+                    </p>
+                </div>
+                <div class="user-info">
+                    <input type="text" name="user-name" class="user-info-input" placeholder="ФИО" required>
+                    <input type="email" name="user-email" class="user-info-input" placeholder="Электронная почта"
+                        required>
+                    <input type="text" name="user-address" class="user-info-input" placeholder="Ваш адрес" required>
+                    <input type="number" name="user-phone-number" class="user-info-input" placeholder="Номер телефона"
+                        required>
+
+                </div>
+                <input type="submit" name="user-form-submit-button" class="user-form-submit-button"
+                    value="Оформить заказ">
+            </form>
+
+        </fieldset>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <a class="logo" href="index.html">
+                    <img src="Image/Logo/logo.png" alt="Logo" width="90wv" height="30hv" />
+                </a>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">О компании</a>
+                    <a href="#" class="footer-link">Отзывы</a>
+                    <a href="#" class="footer-link">Сотрудничество</a>
+                    <a href="#" class="footer-link">Контакты</a>
+
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="Image/Social/vk.svg" alt="vk" width="31"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/instagram.svg" alt="instagram" width="26"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/facebook.svg" alt="facebook" width="26"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/whatsapp.svg" alt="whatsapp" width="26"
+                            height="26" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/feedback.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "cosmeticsId": "tn01",
+    "cosmeticsName": "Женский парфюм Marmara",
+    "cosmeticsCharacteristic1": "Объем: 100 мл",
+    "cosmeticsCharacteristic2": "Верхние ноты: Груша",
+    "cosmeticsCharacteristic3": "Средние ноты: Кофе",
+    "cosmeticsCharacteristic4": "Нижние ноты: Ваниль",
+    "cosmeticsPrice": 3500,
+    "cosmeticsImage": "Image/Perfume/MarmaraBlack.jpg"
+  },
+  {
+    "cosmeticsId": "tn02",
+    "cosmeticsName": "Женский парфюм Be Bad",
+    "cosmeticsCharacteristic1": "Объем: 100 мл",
+    "cosmeticsCharacteristic2": "Верхние ноты: Миндаль",
+    "cosmeticsCharacteristic3": "Средние ноты: Тубероза",
+    "cosmeticsCharacteristic4": "Нижние ноты: Бобы тонка",
+    "cosmeticsPrice": 3500,
+    "cosmeticsImage": "Image/Perfume/Bebad.jpg"
+  },
+  {
+    "cosmeticsId": "tn03",
+    "cosmeticsName": "Женский парфюм Andre",
+    "cosmeticsCharacteristic1": "Объем: 100 мл",
+    "cosmeticsCharacteristic2": "Верхние ноты: Имбирь",
+    "cosmeticsCharacteristic3": "Средние ноты: Лилия",
+    "cosmeticsCharacteristic4": "Нижние ноты: Древесные ноты",
+    "cosmeticsPrice": 3500,
+    "cosmeticsImage": "Image/Perfume/Andre.jpg"
+  }
+]

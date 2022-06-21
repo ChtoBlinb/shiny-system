@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Косметика и Парфюм</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <a class="logo" href="#">
+                <img src="Image/Logo/logo.png" alt="Logo" width="120wv" height="40hv" />
+            </a>
+            <a class="button-cart" href="cart.html">
+                <span class="button-cart-svg"></span>
+            </a>
+        </header>
+    </div>
+    <main class="main">
+        <div class="container">
+            <section class="container-slider">
+                <section class="section-slider">
+                    <div class="slider">
+                        <div><img src="Image/Slider/slide_1.jpg" class="slider-image" alt=""></div>
+                        <div><img src="Image/Slider/slide_2.jpg" class="slider-image" alt=""></div>
+                        <div><img src="Image/Slider/slide_3.jpg" class="slider-image" alt=""></div>
+                    </div>
+                </section>
+
+            </section>
+            <section class="brands">
+                <div class="section-heading">
+                    <h2 class="section-title">Производители</h2>
+                </div>
+                <div class="cards cards-brands">
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <a class="logo" href="#">
+                    <img src="Image/Logo/logo.png" alt="Logo" width="90wv" height="30hv" />
+                </a>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">О компании</a>
+                    <a href="#" class="footer-link">Отзывы</a>
+                    <a href="#" class="footer-link">Сотрудничество</a>
+                    <a href="#" class="footer-link">Контакты</a>
+
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="Image/Social/vk.svg" alt="vk" width="31"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/instagram.svg" alt="instagram" width="26"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/facebook.svg" alt="facebook" width="26"
+                            height="26" /></a>
+                    <a href="#" class="social-link"><img src="Image/Social/whatsapp.svg" alt="whatsapp" width="26"
+                            height="26" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/minify/brand.min.js" defer></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+    </script>
+</body>
+
+
+</html>

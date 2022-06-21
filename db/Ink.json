@@ -1,0 +1,32 @@
+[
+  {
+    "cosmeticsId": "fb01",
+    "cosmeticsName": "LA BASE MASCARA",
+    "cosmeticsCharacteristic1": "Объем: 6 г",
+    "cosmeticsCharacteristic2": "Цвет: Белый",
+    "cosmeticsCharacteristic3": "Эффект: Объем",
+    "cosmeticsCharacteristic4": "Производитель: Chanel",
+    "cosmeticsPrice": 2950,
+    "cosmeticsImage": "Image/Ink/LaBaseMascara.jpg"
+  },
+  {
+    "cosmeticsId": "fb02",
+    "cosmeticsName": "INIMITABLE",
+    "cosmeticsCharacteristic1": "Объем: 6 г",
+    "cosmeticsCharacteristic2": "Цвет: Черный",
+    "cosmeticsCharacteristic3": "Эффект: Разделение",
+    "cosmeticsCharacteristic4": "Производитель: Chanel",
+    "cosmeticsPrice": 2950,
+    "cosmeticsImage": "Image/Ink/Inimitable.jpg"
+  },
+  {
+    "cosmeticsId": "fb03",
+    "cosmeticsName": "DIMENSIONS DE CHANEL",
+    "cosmeticsCharacteristic1": "Объем: 6 г",
+    "cosmeticsCharacteristic2": "Цвет: Черный",
+    "cosmeticsCharacteristic3": "Эффект: Удлинение",
+    "cosmeticsCharacteristic4": "Производитель: Chanel",
+    "cosmeticsPrice": 2950,
+    "cosmeticsImage": "Image/Ink/Dimensions.jpg"
+  }
+]

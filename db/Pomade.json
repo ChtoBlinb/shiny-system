@@ -1,0 +1,32 @@
+[
+  {
+    "cosmeticsId": "pp01",
+    "cosmeticsName": "Le Rouge Deep Velvet",
+    "cosmeticsCharacteristic1": "Вес:  3,4 г",
+    "cosmeticsCharacteristic2": "Цвет: Красный сантал",
+    "cosmeticsCharacteristic3": "Эффект: САТИНОВО-МАТОВЫЙ",
+    "cosmeticsCharacteristic4": "Производитель: GIVENCHY",
+    "cosmeticsPrice": 3193,
+    "cosmeticsImage": "Image/Pomade/KRSNT.jpg"
+  },
+  {
+    "cosmeticsId": "pp02",
+    "cosmeticsName": "Le Rouge Deep Velvet",
+    "cosmeticsCharacteristic1": "Вес:  3,4 г",
+    "cosmeticsCharacteristic2": " Цвет: Дымчатая роза",
+    "cosmeticsCharacteristic3": "Эффект: САТИНОВО-МАТОВЫЙ",
+    "cosmeticsCharacteristic4": "Производитель: GIVENCHY",
+    "cosmeticsPrice": 3193,
+    "cosmeticsImage": "Image/Pomade/DMRZ.jpg"
+  },
+  {
+    "cosmeticsId": "pp03",
+    "cosmeticsName": "Le Rouge Deep Velvet",
+    "cosmeticsCharacteristic1": "Вес:  3,4 г",
+    "cosmeticsCharacteristic2": "Цвет: Красный шафран",
+    "cosmeticsCharacteristic3": "Эффект: САТИНОВО-МАТОВЫЙ",
+    "cosmeticsCharacteristic4": "Производитель: GIVENCHY",
+    "cosmeticsPrice": 3193,
+    "cosmeticsImage": "Image/Pomade/KRCHFN.jpg"
+  }
+]

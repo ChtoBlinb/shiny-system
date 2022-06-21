@@ -1,0 +1,722 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding-top: 24px;
+}
+
+a,
+button {
+    cursor: pointer;
+    color: inherit;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.section-slider{
+    margin: 80px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+.container-slider .section-slider .bx-wrapper {
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
+    border: 5px solid #fff;
+    background: #fff;
+}
+
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale;
+    border-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: black;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+
+}
+
+
+.card-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-primary[disable] {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px 16px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.button-primary[disable]:hover {
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 0 0 3px #000000;
+}
+
+.button-icon {
+    margin-right: 6px;
+}
+
+.button-card-text {
+    margin-right: 10px;
+}
+.button-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.button-cart .button-cart-svg {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    -webkit-mask: url("../Image/Social/cart.svg") no-repeat 50% 50%;
+    mask: url("../Image/Social/cart.svg") no-repeat 50% 50%;
+}
+.button-cart:hover{
+    background-color: white;
+}
+.button-cart:hover .button-cart-svg{
+    background-color: black;
+}
+
+
+.button .button-cart-svg {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    -webkit-mask: url("/Image/Social/cart.svg") no-repeat 50% 50%;
+    mask: url("/Image/Social/cart.svg") no-repeat 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.button-primary .button-cart-svg {
+    background-color: #fff;
+}
+.button-primary:hover .button-cart-svg {
+    background-color: black;
+}
+
+
+
+
+.main {
+    background: white;
+}
+
+
+
+/* Начало стилей для карточки товаров*/
+.section-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 30px 0 0;
+    color: #000000;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: 0.2s;
+    min-height: 300px;
+    
+}
+
+.card {
+    background: #ffffff;
+    box-shadow: 0 0px 4px #9b9b9b;
+    border: 0.5px solid #9b9b9b;
+    border-radius: 7px;
+    overflow: hidden;
+    flex-basis: 31%;
+    text-decoration: none;
+    margin-bottom: 50px;
+    transition: 0.5s;
+
+}
+.card:hover{
+    box-shadow: 0 0px 20px #8c8c8c;
+}
+
+
+.card-brands {
+    cursor: pointer
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale;
+    padding: 10px 10px;
+}
+
+.card-text {
+    padding: 20px 23px 35px;
+    min-height: 275px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brands .card-text {
+    min-height: auto;
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-name {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.card-name-model {
+    font-weight: bold;
+}
+
+.card-tag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #262626;
+    border-radius: 2px;
+    padding: 1px 8px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.price,
+.category {
+    color: #8c8c8c;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.card-price {
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
+    color: black;
+}
+
+.characteristic {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 20px;
+}
+
+.category {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 150px;
+}
+
+.price:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #8c8c8c;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Начало стилей для корзины*/
+.cart-fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin:0 auto;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: white ;
+}
+
+.cart-legend{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.cart-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cart-cosmeticsImage{
+    margin: 10px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.cart-cosmeticsName{
+    margin: 10px;
+    font-weight: bold;
+}
+
+.cart-cosmeticsPrice{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-cosmeticsCharacteristic2{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-cosmeticsCharacteristic3{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-cosmeticsCharacteristic4{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-control{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.order-sum-price{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.order-button{
+    font-size: 20px;
+    padding: 8px 16px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #fff;
+}
+.order-button:hover{
+    background-color: white;
+    color: black;
+}
+.clear-button{
+    font-size: 20px;
+    padding: 8px 16px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #fff;
+}
+.clear-button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.cart-notification{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+/* Начало стилей для формы заказа*/
+.feedback-fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin:0 auto;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: white ;
+}
+.feedback-legend{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.order-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.feedback-order-sum{
+    border: none;
+    resize: none;       
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.feedback-order-name{
+    height: 200px;
+    text-align: center;
+    border: none;
+    resize: none;       
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-info-input{
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: center;
+    height: 3.5vh;
+    width: 50%;
+    border-radius: 10px;
+}
+.user-form-submit-button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.user-form-submit-button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/* Начало стилей для футера*/
+.footer {
+    padding: 60px 0;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.social-links a{
+    display: inline-block;
+    align-items: center;
+    margin-right: 14px;
+}
+
+@media (max-width: 1920px){
+    .cart-fieldset{
+        width: 60%;
+    }
+    .feedback-fieldset{
+        width: 60%;
+    }
+
+}
+@media (max-width: 1366px) {
+    
+    .container {
+        max-width: 960px;
+    }
+
+    .category,
+    .price {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .user-form-submit-button{
+        width: 60%;
+        font-size: 16px;
+    }
+    .cart-card{
+        display: flex;
+        flex-direction: column;
+    } 
+    .cart .cart-cosmeticsPrice{
+        margin: 0 auto;
+    }
+    .cart .cart-cosmeticsName{
+        display: flex;
+        justify-content: center;
+    }
+    .cart-control{
+        flex-direction: column;
+    }
+    .container {
+        max-width: 750px;
+    }
+
+
+    .promo-text {
+        font-size: 18px;
+        max-width: 400px;
+    }
+
+    .card {
+        flex-basis: 49%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 560px;
+    }
+
+    .card-info {
+        flex-wrap: wrap;
+    }
+
+    .card .rating {
+        flex-basis: 100%;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        min-height: 290px;
+    }
+
+    .card-price-bold {
+        margin-left: 20px;
+    }
+
+
+    .promo-title {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .promo-text {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 578px) {
+    .container {
+        width: 90%;
+    }
+
+
+
+    .promo {
+        background-image: none;
+    }
+
+    .promo-title {
+        margin-bottom: 10px;
+    }
+
+
+
+    .card {
+        flex-basis: 100%;
+    }
+
+    .card-text {
+        min-height: auto;
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-block {
+        align-items: flex-start;
+    }
+
+    .footer-nav {
+        margin-left: 0;
+        margin-right: 0;
+        order: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-right: 15px;
+        order: 1;
+    }
+
+    .social-links {
+        order: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-text {
+        display: none;
+    }
+
+    .button-icon {
+        margin: 0;
+    }
+
+
+    .buttons {
+        flex-wrap: wrap;
+        margin-left: auto;
+    }
+
+    .button {
+        min-height: 40px;
+        padding: 5px 12px;
+
+    }
+
+    .footer-block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        order: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+}

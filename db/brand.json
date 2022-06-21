@@ -1,0 +1,17 @@
+[
+  {
+    "brandName": "Помада",
+    "brandImage": "Image/Pomade/Pomade.jpg",
+    "brandFile": "Pomade.json"
+  },
+  {
+    "brandName": "Парфюм",
+    "brandImage": "Image/Perfume/Perfume.jpg",
+    "brandFile": "Perfume.json"
+  },
+  {
+    "brandName": "Тушь",
+    "brandImage": "Image/Ink/Ink.jpg",
+    "brandFile": "Ink.json"
+  }
+]
